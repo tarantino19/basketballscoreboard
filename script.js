@@ -5,8 +5,6 @@ let homeCount = 0;
 let awayPoints = document.getElementById(`guest-pts`);
 let awayCount = 0;
 
-let resetScore = document.getElementById("home-pts "`guest-pts`);
-
 function homeAddPoint() {
   homeCount += 1;
   homePoints.innerText = homeCount;
