@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* ------------------------ */
+/* GENERAL STYLES */
+/* ------------------------ */
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  color: white;
+  line-height: 1;
+  background-color: black;
+  font-size: 1.5rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 800px;
+  height: 600px;
+}
+
+.scoreboard {
+  display: flex;
+  gap: 5em;
+  background-color: coral;
+  padding: 5em 3em;
+  border-radius: 3%;
+  border: 2px solid wheat;
+  outline: 4px solid coral;
+}
+
+h2 {
+  font-size: 80px;
+}
+
+.pts {
+  background-color: black;
+  color: yellow;
+  font-size: 100px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+
+button {
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+  margin-top: 0.5em;
+  font-size: 2em;
+  border: 3px solid white;
+  background-color: coral;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: whitesmoke;
+  border: 1px solid black;
+}
+
+.one {
+  margin-top: 1em;
+}
+
+.two {
+  margin: 0.05em;
+}
+
+#reset-score {
+  margin-top: 3em;
+  font-size: 40px;
+}
