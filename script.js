@@ -2,7 +2,7 @@
 
 let homePoints = document.getElementById(`home-pts`);
 let homeCount = 0;
-let awayPoints = document.getElementById(`guest-pts`);
+let awayPoints = document.getElementById(`away-pts`);
 let awayCount = 0;
 
 function homeAddPoint() {
